@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla CDB_File
 Name:		perl-CDB_File
 Version:	0.7
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module//CDB_File-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module//CDB_File-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CDB_File - perl interface to CDB. 
+CDB_File - perl interface to CDB.
 
 %description -l pl
 CDB_File - interfejs do CDB dla perla.
