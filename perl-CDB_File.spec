@@ -1,21 +1,21 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	CDB_File perl module
-Summary(pl):	Modu³ perla CDB_File
+Summary:	CDB_File Perl module
+Summary(pl):	Modu³ Perla CDB_File
 Name:		perl-CDB_File
-Version:	0.92
+Version:	0.93
 Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDB_File/CDB_File-%{version}.tar.gz
+BuildRequires:	perl >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl >= 5.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CDB_File - perl interface to CDB.
+CDB_File - Perl interface to CDB.
 
 %description -l pl
-CDB_File - interfejs do CDB dla perla.
+CDB_File - interfejs do CDB dla Perla.
 
 %prep
 %setup -q -n CDB_File-%{version}
