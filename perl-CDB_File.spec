@@ -3,7 +3,7 @@ Summary:	CDB_File perl module
 Summary(pl):	Modu³ perla CDB_File
 Name:		perl-CDB_File
 Version:	0.84
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
