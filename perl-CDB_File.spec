@@ -2,15 +2,15 @@
 Summary:	CDB_File perl module
 Summary(pl):	Modu³ perla CDB_File
 Name:		perl-CDB_File
-Version:	0.84
-Release:	2
+Version:	0.86
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/authors/id/TIMPX/CDB_File-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
