@@ -42,7 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitearch}/CDB_File.pm
 %dir %{perl_sitearch}/auto/CDB_File
 %{perl_sitearch}/auto/CDB_File/CDB_File.bs
-%{perl_sitearch}/auto/CDB_File/autosplit.ix
-%{perl_sitearch}/auto/CDB_File/multi_get.al
 %attr(755,root,root) %{perl_sitearch}/auto/CDB_File/CDB_File.so
 %{_mandir}/man3/*
