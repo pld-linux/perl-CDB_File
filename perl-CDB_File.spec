@@ -24,7 +24,7 @@ CDB_File - interfejs do CDB dla perla.
 
 %build
 perl Makefile.PL
-%{__make} OPTIMIZE="%{?debug:-O -g}%{!?debug:$RPM_OPT_FLAGS}"
+%{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
