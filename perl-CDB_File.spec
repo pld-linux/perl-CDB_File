@@ -2,12 +2,12 @@
 Summary:	CDB_File perl module
 Summary(pl):	Modu³ perla CDB_File
 Name:		perl-CDB_File
-Version:	0.7
-Release:	3
+Version:	0.8
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module//CDB_File-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/authors/id/TIMPX/CDB_File-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -36,7 +36,7 @@ strip --strip-unneeded $RPM_BUILD_ROOT/%{perl_sitearch}/auto/CDB_File/*.so
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/CDB_File
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
