@@ -29,14 +29,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README ACKNOWLEDGE CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README ACKNOWLEDGE CHANGES
 %{perl_sitearch}/CDB_File.pm
 %dir %{perl_sitearch}/auto/CDB_File
 %{perl_sitearch}/auto/CDB_File/CDB_File.bs
