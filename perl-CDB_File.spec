@@ -4,7 +4,7 @@
 
 %include	/usr/lib/rpm/macros.perl
 Summary:	CDB_File - Perl extension for access to cdb databases
-Summary(pl):	CDB_File - rozszerzenie Perla umo¿liwiaj±ce dostêp do baz cdb
+Summary(pl.UTF-8):   CDB_File - rozszerzenie Perla umoÅ¼liwiajÄ…ce dostÄ™p do baz cdb
 Name:		perl-CDB_File
 Version:	0.94
 Release:	1
@@ -22,10 +22,10 @@ CDB_File is a module which provides a Perl interface to Dan Berstein's
 cdb package. cdb is a fast, reliable, lightweight package for creating
 and reading constant databases.
 
-%description -l pl
-CDB_File jest modu³em stanowi±cym interfejs perlowy do pakietu cdb
+%description -l pl.UTF-8
+CDB_File jest moduÅ‚em stanowiÄ…cym interfejs perlowy do pakietu cdb
 Dana Bersteina. cdb jest szybkim, niezawodnym, lekkim pakietem do
-odczytu i tworzenia sta³ych baz danych. 
+odczytu i tworzenia staÅ‚ych baz danych. 
 
 %prep
 %setup -q -n CDB_File-%{version}
