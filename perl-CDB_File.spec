@@ -4,7 +4,7 @@
 
 %include	/usr/lib/rpm/macros.perl
 Summary:	CDB_File - Perl extension for access to cdb databases
-Summary(pl.UTF-8):   CDB_File - rozszerzenie Perla umożliwiające dostęp do baz cdb
+Summary(pl.UTF-8):	CDB_File - rozszerzenie Perla umożliwiające dostęp do baz cdb
 Name:		perl-CDB_File
 Version:	0.94
 Release:	1
