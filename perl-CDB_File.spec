@@ -34,6 +34,7 @@ odczytu i tworzenia stałych baz danych.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests: %{__make} test}
