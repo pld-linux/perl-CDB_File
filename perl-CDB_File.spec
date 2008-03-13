@@ -6,13 +6,13 @@
 Summary:	CDB_File - Perl extension for access to cdb databases
 Summary(pl.UTF-8):	CDB_File - rozszerzenie Perla umożliwiające dostęp do baz cdb
 Name:		perl-CDB_File
-Version:	0.94
-Release:	3
+Version:	0.95
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CDB_File/CDB_File-%{version}.tar.gz
-# Source0-md5:	3ff21ab85d0b61e2449ee5bfcc7584af
+# Source0-md5:	521431a1b053b37c300e1e6045250c90
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
