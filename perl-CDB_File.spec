@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README ACKNOWLEDGE CHANGES
 %{perl_vendorarch}/CDB_File.pm
 %dir %{perl_vendorarch}/auto/CDB_File
-%{perl_vendorarch}/auto/CDB_File/CDB_File.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/CDB_File/CDB_File.so
 %{_mandir}/man3/*
