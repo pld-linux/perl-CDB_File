@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	CDB_File - Perl extension for access to cdb databases
 Summary(pl.UTF-8):	CDB_File - rozszerzenie Perla umożliwiające dostęp do baz cdb
 Name:		perl-CDB_File
